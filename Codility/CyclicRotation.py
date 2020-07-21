@@ -7,8 +7,3 @@ def solution(A, K):
     answer = A[-K:]
     answer.extend(A[:-K])
     return answer
-
-
-A = []
-K = 0
-print(solution(A, K))

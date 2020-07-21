@@ -10,5 +10,3 @@ def solution(N):
         return max(binary_gap)
     else:
         return 0
-
-print(solution(529))
